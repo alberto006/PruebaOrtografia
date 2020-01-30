@@ -1,0 +1,91 @@
+/*Import Gotham Font */
+  @font-face{
+	  	font-family: "Gotham Book";
+	  	font-style: normal;
+		font-weight: normal;
+		
+	  	src: local('Gotham Book'), url('../font/Gotham/GothamBook.woff') format('woff');
+  	}
+
+  @font-face {
+		font-family: 'Gotham Medium';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Gotham Medium'), url('../font/Gotham/GothamMedium.woff') format('woff');
+	}
+
+	@font-face {
+		font-family: 'Gotham Bold';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Gotham Bold'), url('../font/Gotham/GothamBold.woff') format('woff');
+	}
+
+	@font-face {
+		font-family: 'Gotham Black Regular';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Gotham Black Regular'), url('../Gotham-Black.woff') format('woff');
+	}
+	@font-face {
+		font-family: 'Gotham Light';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Gotham Light'), url('../font/Gotham/GothamLight.woff') format('woff');
+	}
+
+
+
+	/*** Gotham Bold para Titulos principales ***/
+	.gotham-bold{
+		font-family: "Gotham Bold";
+	}
+
+	/*** Gotham book para texto ligero y contenido del cuerpo de la pagina ***/
+	  .gotham{
+	  	font-family: "Gotham Book";
+	  	
+	  }
+	/*** Gotham Medium para encabezados medianos ***/ 
+	  .gotham-medium{
+	  	font-family: 'Gotham Medium';
+	  }
+
+	/*** Gotham Black Regular para textos especiales ***/
+	.gotham-black{
+		font-family: "Gotham Black Regular";
+	}
+	.gotham-light{
+		font-family: "Gotham Light";
+	}
+
+	h1, h2, h3, h4, h5, h6{
+		font-family: "Gotham Bold";
+	}
+
+	li>a{
+		font-family: "Gotham Bold";	
+	}
+
+	p{
+		font-family: "Gotham Light"
+	}
+	.text-gris{
+		color:#666666;
+	}
+
+	.text-charteuse{
+		color:#D2E000;
+	}
+
+	.btn-ops-indigo{
+		background-color: rgba(14,59,87);
+		color:white;
+	}
+
+	.btn-ops-charteuse{
+		background-color: rgba(169,180,00);
+		color: rgba(102,102,102);
+	}
+
+	
